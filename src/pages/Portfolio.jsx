@@ -17,28 +17,36 @@ import {
 } from "@/components/ui/dialog"
 import { getPortfolioVideos } from '@/api/videos';
 import { useEffect, useRef, useState } from 'react';
+import { useQuery } from '@tanstack/react-query';
 
 const Portfolio = () => {
     const swiperRef = useRef(null);
-    const [portfolioVideos, setPortfolioVideo] = useState([])
 
-    useEffect(() => {
-        const fetchPortfolioData = async () => {
-            try {
-                const data = await getPortfolioVideos();
-                setPortfolioVideo(data);
-            } catch (error) {
-                console.error("Error fetching pricing:", error);
-            }
-        };
-        fetchPortfolioData();
-    }, []);
+    const {
+        data: portfolioVideos,
+        isLoading,
+        isError,
+        error,
+    } = useQuery({
+        queryKey: ['portfolioVideos'],
+        queryFn: getPortfolioVideos,
+    });
+
+
     useEffect(() => {
         if (swiperRef.current && portfolioVideos.length > 0) {
             const middleIndex = Math.floor(portfolioVideos.length / 2);
             swiperRef.current.slideToLoop(middleIndex);
         }
     }, [portfolioVideos]);
+
+    if (isLoading) {
+        return <div>Loading portfolio videos...</div>;
+    }
+
+    if (isError) {
+        return <div>Error: {error.message}</div>;
+    }
 
     return (
         <>
@@ -86,7 +94,7 @@ const Portfolio = () => {
                     <div className="flex items-center justify-center mt-4">
                         <Dialog className="bg-red-500">
                             <DialogTrigger asChild>
-                                <Button className="border-1 text-white border border-white px-8 py-3 rounded-[40px] text-[17px] ">View Our Private collection</Button>
+                                <Button className="z-10  border-1 text-white border border-white px-8 py-3 rounded-[40px] text-[17px] ">View Our Private collection</Button>
                             </DialogTrigger>
                             {/* <DialogContent className="sm:max-w-[425px]">
                                 <DialogHeader>

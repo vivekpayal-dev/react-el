@@ -2,7 +2,7 @@ import PartnershipButton from "../components/PartnershipButton"
 
 const PartnershipProgram = () => {
   return (
-    <div className="flex justify-center mt-12 md:-mt-16 flex-grow px-3">
+    <div className="flex justify-center mt-12 md:-mt-16 flex-grow px-3 z-10">
       <div className="text-white flex items-center md:justify-center flex-col text-center">
         <h2 className="text-lg md:text-3xl leading-7 md:leading-[45px]">
           <div className="flex items-center flex-wrap justify-center">

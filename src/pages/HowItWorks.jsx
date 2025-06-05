@@ -3,12 +3,12 @@ import Check from "@/components/ui/Check"
 const HowItWorks = () => {
   return (
     <div className="flex flex-col items-center px-3 md:px-12 pb-5 md:pb-5 max-w-7xl mx-auto gap-5">
-      <div className="flex justify-center">
+      <div className="flex justify-center z-10">
         <div className="hidden md:block md:w-[100px]"></div>
         <h2 className="leading-[42px] text-3xl text-center text-white mb-[12px] mt-[10px]">In the world of editing,
           it couldn’t  get simpler <br /> than this.</h2>
       </div>
-      <div className=" ">
+      <div >
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 md:gap-0 sm:pb-6">
           {/* Card 1 */}
           <div className="overflow-hidden text-white md:h-[393px] w-full bg-white-300 rounded-[20px] bg-clip-padding backdrop-filter backdrop-blur-lg border border-white/40 cursor-pointer hover:border-white transition-border duration-300 ease-in-out">

@@ -49,7 +49,7 @@ const Pricing = () => {
     <div className="max-w-7xl px-3 md:px-12  mx-auto mt-3 pb-5">
       <div className="flex justify-center ">
         <div className="hidden md:block md:w-[40px]"></div>
-        <h2 className="text-3xl text-center text-white mb-10">
+        <h2 className="text-3xl z-10 text-center text-white mb-10">
           A Perfect Balance of Quality, Quantity & <br /> Price.
         </h2></div>
       <div className="grid gap-2 md:gap-0 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 text-white sm:pb-5">

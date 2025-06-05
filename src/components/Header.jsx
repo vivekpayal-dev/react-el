@@ -14,11 +14,9 @@ const Header = () => {
     }
     return (
         <header className="flex items-center text-white justify-between px-8 md:px-12 max-w-7xl mx-auto w-full py-10">
-            <div>
-                <Link to="/" className="text-2xl font-bold">
-                    <img src={logo} alt="" className="max-w-[97px] object-cover" />
-                </Link>
-            </div>
+            <Link to="/" className="text-2xl font-bold z-10">
+                <img src={logo} alt="" className="max-w-[97px] object-cover" />
+            </Link>
             <nav className="hidden md:block">
                 <ul className="relative flex justify-center border h-[56px] items-center rounded-[40px] border-white overflow-hidden">
                     {navLinks.map((link, index) => {
@@ -49,7 +47,7 @@ const Header = () => {
             </nav>
             <div>
                 <Link to="/help" className="hidden md:block uppercase">Help</Link>
-                <button className="block md:hidden " onClick={handleShowMenu}>
+                <button className="block z-10 relative md:hidden " onClick={handleShowMenu}>
                     {isMenuShow ? <div className="rounded-full border border-white p-1"><X size={20} /></div> : <Menu size={25} />}
                 </button>
                 <div className={`mobile-menu-bar text-left ${isMenuShow ? "left-0 pointer-events-auto" : "-left-full pointer-events-none"}  z-[999] fixed top-0 h-full w-full  bg-white-300 bg-clip-padding backdrop-filter backdrop-blur-lg p-8 transition-all ease-in-out duration-150`}>
@@ -69,7 +67,7 @@ const Header = () => {
                                     <Link
                                         to={link.href}
                                         className="relative z-10 uppercase"
-                                         onClick={() => setIsMenuShow(false)}
+                                        onClick={() => setIsMenuShow(false)}
                                     >
                                         {link.name}
                                     </Link>
