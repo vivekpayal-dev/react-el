@@ -26,12 +26,12 @@ const PortfolioCard = ({ portfolioVideo }) => {
     return (
         <>
             <div
-                className="relative h-full border rounded-[32px] overflow-hidden cursor-pointer"
+                className="relative h-full border rounded-[4px] overflow-hidden cursor-pointer"
                 onMouseEnter={handlePlayVideo}
                 onMouseLeave={handlePauseVideo}
                 onClick={handleCardClick}
             >
-                <div className="absolute inset-0 z-[1] w-full h-full rounded-[32px] bg-white/20 backdrop-blur-[20px] transition duration-[250ms] [transform-style:preserve-3d] [transform-origin:top_left] overflow-hidden">
+                <div className="absolute inset-0 z-[1] w-full h-full  bg-white/20 backdrop-blur-[20px] transition duration-[250ms] [transform-style:preserve-3d] [transform-origin:top_left] overflow-hidden">
                     <div className="h-full text-black font-semibold text-lg">
                         <video
                             src={`${import.meta.env.VITE_APP_API_URL}/uploads/videos/${video}`}
@@ -44,9 +44,9 @@ const PortfolioCard = ({ portfolioVideo }) => {
                         ></video>
                     </div>
                 </div>
-                <span className="z-1 absolute bottom-3 md:bottom-8 px-4 py-2 rounded-[20px] left-5 md:left-14 z-10 text-white text-sm bg-white/20 backdrop-blur-[20px] [transform-style:preserve-3d] [transform-origin:top_left] video-label">
+                {/* <span className="z-1 absolute bottom-3 md:bottom-8 px-4 py-2 rounded-[20px] left-5 md:left-14 z-10 text-white text-sm bg-white/20 backdrop-blur-[20px] [transform-style:preserve-3d] [transform-origin:top_left] video-label">
                     {title}
-                </span>
+                </span> */}
             </div>
 
             {/* Lightbox */}

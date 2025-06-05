@@ -53,7 +53,6 @@ const Portfolio = () => {
             <div className='max-w-7xl px-8 mt-8 w-full mx-auto pb-5'>
                 <Swiper
                     effect={'coverflow'}
-                    centeredSlides={true}
                     autoplay={true}
                     loop={true}
                     slidesPerView={'auto'}
@@ -64,13 +63,8 @@ const Portfolio = () => {
                         modifier: 2.5,
                     }}
                     pagination={{ el: '.swiper-pagination', clickable: true }}
-                    navigation={{
-                        nextEl: '.swiper-button-next',
-                        prevEl: '.swiper-button-prev',
-                        clickable: true,
-                    }}
                     onSwiper={(swiper) => (swiperRef.current = swiper)}
-                    modules={[EffectCoverflow, Pagination, Navigation]}
+                    // modules={[EffectCoverflow]}
                     className="swiper_container !pb-16"
                 >
                     {
@@ -81,14 +75,6 @@ const Portfolio = () => {
                             </SwiperSlide>
                         })
                     }
-                    <div className="slider-controler">
-                        <div className="swiper-button-prev slider-arrow">
-                            <ArrowLeft className='text-white text-[14px]' />
-                        </div>
-                        <div className="swiper-button-next slider-arrow">
-                            <ArrowRight className='text-white text-[14px]' />
-                        </div>
-                    </div>
                 </Swiper>
                 <div className="flex flex-col items-center gap-20">
                     <div className="flex items-center justify-center mt-4">
