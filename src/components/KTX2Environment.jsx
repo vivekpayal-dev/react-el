@@ -4,32 +4,33 @@ import { PMREMGenerator, EquirectangularReflectionMapping } from "three";
 import { KTX2Loader } from "three/examples/jsm/loaders/KTX2Loader";
 
 export default function KTX2Environment() {
-    const { gl, scene } = useThree();
+  const { gl, scene } = useThree();
 
-    useEffect(() => {
-        const pmremGenerator = new PMREMGenerator(gl);
-        pmremGenerator.compileEquirectangularShader();
+  useEffect(() => {
+    const pmremGenerator = new PMREMGenerator(gl);
+    pmremGenerator.compileEquirectangularShader();
 
-        const loader = new KTX2Loader()
-            .setTranscoderPath("https://cdn.jsdelivr.net/npm/three@0.160.0/examples/jsm/libs/basis/")
-            .detectSupport(gl);
+    const loader = new KTX2Loader()
+      .setTranscoderPath("/basis/")
+      .detectSupport(gl);
 
-        loader.load("output.ktx2", (texture) => {
-            texture.mapping = EquirectangularReflectionMapping;
-            const envMap = pmremGenerator.fromEquirectangular(texture).texture;
+    loader.load("/output.ktx2", (texture) => {
+      texture.mapping = EquirectangularReflectionMapping;
 
-            scene.environment = envMap;
-            scene.background = envMap;
+      const envMap = pmremGenerator.fromEquirectangular(texture).texture;
 
-            texture.dispose();
-            pmremGenerator.dispose();
-        });
+      scene.environment = envMap;
+      scene.background = envMap;
 
-        return () => {
-            scene.environment = null;
-            scene.background = null;
-        };
-    }, [gl, scene]);
+      texture.dispose();
+      pmremGenerator.dispose();
+    });
 
-    return null;
+    return () => {
+      scene.environment = null;
+      scene.background = null;
+    };
+  }, [gl, scene]);
+
+  return null;
 }

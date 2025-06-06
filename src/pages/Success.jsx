@@ -19,12 +19,14 @@ const Success = () => {
   async function getPaymentDetail() {
     try {
       if (sessionId) {
-        const response = await axios.get(`${import.meta.env.VITE_APP_API_URL}/order`, {
-          params: {
-            session_id: sessionId,
-          },
-        });
-        console.log(response.data);
+        const response = await axios.get(
+          `${import.meta.env.VITE_APP_API_URL}/order`,
+          {
+            params: {
+              session_id: sessionId,
+            },
+          }
+        );
         setPaymentData(response.data);
         setSession(response.data.data);
       }
@@ -62,7 +64,9 @@ const Success = () => {
                 <User className="h-5 w-5 opacity-80" />
                 <span className="opacity-80">Customer:</span>
               </div>
-              <span className="font-medium">{paymentData?.data?.name || "Not provided"}</span>
+              <span className="font-medium">
+                {paymentData?.data?.name || "Not provided"}
+              </span>
             </div>
 
             <div className="flex items-center justify-between">
@@ -70,7 +74,9 @@ const Success = () => {
                 <Calendar className="h-5 w-5 opacity-80" />
                 <span className="opacity-80">Date:</span>
               </div>
-              <span className="font-medium">{paymentData?.data?.purchased_at}</span>
+              <span className="font-medium">
+                {paymentData?.data?.purchased_at}
+              </span>
             </div>
 
             <div className="flex items-center justify-between">

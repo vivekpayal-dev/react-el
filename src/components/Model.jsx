@@ -13,7 +13,7 @@ function Model() {
 
         gltf.scene.traverse((child) => {
             if (child.isMesh) {
-                console.log("Mesh:", child.name, "Material:", child.material);
+                // console.log("Mesh:", child.name, "Material:", child.material);
             }
         });
     }, [gltf]);
