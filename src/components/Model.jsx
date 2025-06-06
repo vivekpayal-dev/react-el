@@ -11,11 +11,11 @@ function Model() {
             gltf.scene.background = gltf.scene.background;
         }
 
-        // gltf.scene.traverse((child) => {
-        //     if (child.isMesh) {
-        //         console.log("Mesh:", child.name, "Material:", child.material);
-        //     }
-        // });
+        gltf.scene.traverse((child) => {
+            if (child.isMesh) {
+                console.log("Mesh:", child.name, "Material:", child.material);
+            }
+        });
     }, [gltf]);
 
     return <primitive ref={mesh} object={gltf.scene} />;

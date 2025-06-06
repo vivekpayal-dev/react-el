@@ -490,86 +490,24 @@
 		{
 			"doubleSided":true,
 			"name":"Cement.013",
-			"normalTexture":{
-				"extensions":{
-					"KHR_texture_transform":{
-						"offset":[
-							0,
-							-1
-						],
-						"scale":[
-							2,
-							2
-						]
-					}
-				},
-				"index":3,
-				"scale":0.550000011920929,
-				"texCoord":1
-			},
 			"pbrMetallicRoughness":{
 				"baseColorTexture":{
-					"index":4,
+					"index":3,
 					"texCoord":1
 				},
 				"metallicFactor":0,
-				"metallicRoughnessTexture":{
-					"extensions":{
-						"KHR_texture_transform":{
-							"offset":[
-								0,
-								-1
-							],
-							"scale":[
-								2,
-								2
-							]
-						}
-					},
-					"index":5,
-					"texCoord":1
-				}
+				"roughnessFactor":0.5
 			}
 		},
 		{
 			"doubleSided":true,
 			"name":"Cement.014",
-			"normalTexture":{
-				"extensions":{
-					"KHR_texture_transform":{
-						"offset":[
-							0,
-							-1
-						],
-						"scale":[
-							2,
-							2
-						]
-					}
-				},
-				"index":6,
-				"scale":0.550000011920929
-			},
 			"pbrMetallicRoughness":{
 				"baseColorTexture":{
-					"index":7
+					"index":4
 				},
 				"metallicFactor":0,
-				"metallicRoughnessTexture":{
-					"extensions":{
-						"KHR_texture_transform":{
-							"offset":[
-								0,
-								-1
-							],
-							"scale":[
-								2,
-								2
-							]
-						}
-					},
-					"index":8
-				}
+				"roughnessFactor":0.5
 			}
 		},
 		{
@@ -577,7 +515,7 @@
 			"name":"White Granite.001",
 			"pbrMetallicRoughness":{
 				"baseColorTexture":{
-					"index":9
+					"index":5
 				},
 				"metallicFactor":0,
 				"roughnessFactor":0.3999999761581421
@@ -625,7 +563,7 @@
 			"name":"Wood.001",
 			"pbrMetallicRoughness":{
 				"baseColorTexture":{
-					"index":10,
+					"index":6,
 					"texCoord":1
 				},
 				"metallicFactor":0,
@@ -637,7 +575,7 @@
 			"name":"Wood",
 			"pbrMetallicRoughness":{
 				"baseColorTexture":{
-					"index":11,
+					"index":7,
 					"texCoord":1
 				},
 				"metallicFactor":0,
@@ -649,7 +587,7 @@
 			"name":"White Granite.003",
 			"pbrMetallicRoughness":{
 				"baseColorTexture":{
-					"index":12,
+					"index":8,
 					"texCoord":1
 				},
 				"metallicFactor":0,
@@ -661,7 +599,7 @@
 			"name":"Cream Cloth.002",
 			"pbrMetallicRoughness":{
 				"baseColorTexture":{
-					"index":13,
+					"index":9,
 					"texCoord":1
 				},
 				"metallicFactor":0,
@@ -684,12 +622,12 @@
 						]
 					}
 				},
-				"index":14,
+				"index":10,
 				"scale":0.550000011920929
 			},
 			"pbrMetallicRoughness":{
 				"baseColorTexture":{
-					"index":15
+					"index":11
 				},
 				"metallicFactor":0,
 				"metallicRoughnessTexture":{
@@ -705,7 +643,7 @@
 							]
 						}
 					},
-					"index":16
+					"index":12
 				}
 			}
 		},
@@ -714,7 +652,7 @@
 			"name":"White Granite.004",
 			"pbrMetallicRoughness":{
 				"baseColorTexture":{
-					"index":17
+					"index":13
 				},
 				"metallicFactor":0,
 				"roughnessFactor":0.3999999761581421
@@ -723,555 +661,162 @@
 		{
 			"doubleSided":true,
 			"name":"Cement.015",
-			"normalTexture":{
-				"extensions":{
-					"KHR_texture_transform":{
-						"offset":[
-							0,
-							-1
-						],
-						"scale":[
-							2,
-							2
-						]
-					}
-				},
-				"index":18,
-				"scale":0.550000011920929,
-				"texCoord":1
-			},
 			"pbrMetallicRoughness":{
 				"baseColorTexture":{
-					"index":19,
+					"index":14,
 					"texCoord":1
 				},
 				"metallicFactor":0,
-				"metallicRoughnessTexture":{
-					"extensions":{
-						"KHR_texture_transform":{
-							"offset":[
-								0,
-								-1
-							],
-							"scale":[
-								2,
-								2
-							]
-						}
-					},
-					"index":20,
-					"texCoord":1
-				}
+				"roughnessFactor":0.5
 			}
 		},
 		{
 			"doubleSided":true,
 			"name":"Cement",
-			"normalTexture":{
-				"extensions":{
-					"KHR_texture_transform":{
-						"offset":[
-							0,
-							-1
-						],
-						"scale":[
-							2,
-							2
-						]
-					}
-				},
-				"index":21,
-				"scale":0.550000011920929,
-				"texCoord":1
-			},
 			"pbrMetallicRoughness":{
 				"baseColorTexture":{
-					"index":22,
+					"index":15,
 					"texCoord":1
 				},
 				"metallicFactor":0,
-				"metallicRoughnessTexture":{
-					"extensions":{
-						"KHR_texture_transform":{
-							"offset":[
-								0,
-								-1
-							],
-							"scale":[
-								2,
-								2
-							]
-						}
-					},
-					"index":23,
-					"texCoord":1
-				}
+				"roughnessFactor":0.5
 			}
 		},
 		{
 			"doubleSided":true,
 			"name":"Cement.011",
-			"normalTexture":{
-				"extensions":{
-					"KHR_texture_transform":{
-						"offset":[
-							0,
-							-1
-						],
-						"scale":[
-							2,
-							2
-						]
-					}
-				},
-				"index":24,
-				"scale":0.550000011920929
-			},
 			"pbrMetallicRoughness":{
 				"baseColorTexture":{
-					"index":25
+					"index":16
 				},
 				"metallicFactor":0,
-				"metallicRoughnessTexture":{
-					"extensions":{
-						"KHR_texture_transform":{
-							"offset":[
-								0,
-								-1
-							],
-							"scale":[
-								2,
-								2
-							]
-						}
-					},
-					"index":26
-				}
+				"roughnessFactor":0.5
 			}
 		},
 		{
 			"doubleSided":true,
 			"name":"Cement.010",
-			"normalTexture":{
-				"extensions":{
-					"KHR_texture_transform":{
-						"offset":[
-							0,
-							-1
-						],
-						"scale":[
-							2,
-							2
-						]
-					}
-				},
-				"index":27,
-				"scale":0.550000011920929
-			},
 			"pbrMetallicRoughness":{
 				"baseColorTexture":{
-					"index":28
+					"index":17
 				},
 				"metallicFactor":0,
-				"metallicRoughnessTexture":{
-					"extensions":{
-						"KHR_texture_transform":{
-							"offset":[
-								0,
-								-1
-							],
-							"scale":[
-								2,
-								2
-							]
-						}
-					},
-					"index":29
-				}
+				"roughnessFactor":0.5
 			}
 		},
 		{
 			"doubleSided":true,
 			"name":"Cement.009",
-			"normalTexture":{
-				"extensions":{
-					"KHR_texture_transform":{
-						"offset":[
-							0,
-							-1
-						],
-						"scale":[
-							2,
-							2
-						]
-					}
-				},
-				"index":30,
-				"scale":0.550000011920929
-			},
 			"pbrMetallicRoughness":{
 				"baseColorTexture":{
-					"index":31
+					"index":18
 				},
 				"metallicFactor":0,
-				"metallicRoughnessTexture":{
-					"extensions":{
-						"KHR_texture_transform":{
-							"offset":[
-								0,
-								-1
-							],
-							"scale":[
-								2,
-								2
-							]
-						}
-					},
-					"index":32
-				}
+				"roughnessFactor":0.5
 			}
 		},
 		{
 			"doubleSided":true,
 			"name":"Cement.005",
-			"normalTexture":{
-				"extensions":{
-					"KHR_texture_transform":{
-						"offset":[
-							0,
-							-1
-						],
-						"scale":[
-							2,
-							2
-						]
-					}
-				},
-				"index":33,
-				"scale":0.550000011920929
-			},
 			"pbrMetallicRoughness":{
 				"baseColorTexture":{
-					"index":34
+					"index":19
 				},
 				"metallicFactor":0,
-				"metallicRoughnessTexture":{
-					"extensions":{
-						"KHR_texture_transform":{
-							"offset":[
-								0,
-								-1
-							],
-							"scale":[
-								2,
-								2
-							]
-						}
-					},
-					"index":35
-				}
+				"roughnessFactor":0.5
 			}
 		},
 		{
 			"doubleSided":true,
 			"name":"Cement.007",
-			"normalTexture":{
-				"extensions":{
-					"KHR_texture_transform":{
-						"offset":[
-							0,
-							-1
-						],
-						"scale":[
-							2,
-							2
-						]
-					}
-				},
-				"index":36,
-				"scale":0.550000011920929
-			},
 			"pbrMetallicRoughness":{
 				"baseColorTexture":{
-					"index":37
+					"index":20
 				},
 				"metallicFactor":0,
-				"metallicRoughnessTexture":{
-					"extensions":{
-						"KHR_texture_transform":{
-							"offset":[
-								0,
-								-1
-							],
-							"scale":[
-								2,
-								2
-							]
-						}
-					},
-					"index":38
-				}
+				"roughnessFactor":0.5
 			}
 		},
 		{
 			"doubleSided":true,
 			"name":"Cement.012",
-			"normalTexture":{
-				"extensions":{
-					"KHR_texture_transform":{
-						"offset":[
-							0,
-							-1
-						],
-						"scale":[
-							2,
-							2
-						]
-					}
-				},
-				"index":39,
-				"scale":0.550000011920929
-			},
 			"pbrMetallicRoughness":{
 				"baseColorTexture":{
-					"index":40
+					"index":21
 				},
 				"metallicFactor":0,
-				"metallicRoughnessTexture":{
-					"extensions":{
-						"KHR_texture_transform":{
-							"offset":[
-								0,
-								-1
-							],
-							"scale":[
-								2,
-								2
-							]
-						}
-					},
-					"index":41
-				}
+				"roughnessFactor":0.5
 			}
 		},
 		{
 			"doubleSided":true,
 			"name":"Cement.002",
-			"normalTexture":{
-				"extensions":{
-					"KHR_texture_transform":{
-						"offset":[
-							0,
-							-1
-						],
-						"scale":[
-							2,
-							2
-						]
-					}
-				},
-				"index":42,
-				"scale":0.550000011920929
-			},
 			"pbrMetallicRoughness":{
 				"baseColorTexture":{
-					"index":43
+					"index":22
 				},
 				"metallicFactor":0,
-				"metallicRoughnessTexture":{
-					"extensions":{
-						"KHR_texture_transform":{
-							"offset":[
-								0,
-								-1
-							],
-							"scale":[
-								2,
-								2
-							]
-						}
-					},
-					"index":44
-				}
+				"roughnessFactor":0.5
 			}
 		},
 		{
 			"doubleSided":true,
 			"name":"Cement.003",
-			"normalTexture":{
-				"extensions":{
-					"KHR_texture_transform":{
-						"offset":[
-							0,
-							-1
-						],
-						"scale":[
-							2,
-							2
-						]
-					}
-				},
-				"index":45,
-				"scale":0.550000011920929
-			},
 			"pbrMetallicRoughness":{
 				"baseColorTexture":{
-					"index":46
+					"index":23
 				},
 				"metallicFactor":0,
-				"metallicRoughnessTexture":{
-					"extensions":{
-						"KHR_texture_transform":{
-							"offset":[
-								0,
-								-1
-							],
-							"scale":[
-								2,
-								2
-							]
-						}
-					},
-					"index":47
-				}
+				"roughnessFactor":0.5
 			}
 		},
 		{
 			"doubleSided":true,
 			"name":"Cement.006",
-			"normalTexture":{
-				"extensions":{
-					"KHR_texture_transform":{
-						"offset":[
-							0,
-							-1
-						],
-						"scale":[
-							2,
-							2
-						]
-					}
-				},
-				"index":48,
-				"scale":0.550000011920929
-			},
 			"pbrMetallicRoughness":{
 				"baseColorTexture":{
-					"index":49
+					"index":24
 				},
 				"metallicFactor":0,
-				"metallicRoughnessTexture":{
-					"extensions":{
-						"KHR_texture_transform":{
-							"offset":[
-								0,
-								-1
-							],
-							"scale":[
-								2,
-								2
-							]
-						}
-					},
-					"index":50
-				}
+				"roughnessFactor":0.5
 			}
 		},
 		{
 			"doubleSided":true,
 			"name":"Cement.008",
-			"normalTexture":{
-				"extensions":{
-					"KHR_texture_transform":{
-						"offset":[
-							0,
-							-1
-						],
-						"scale":[
-							2,
-							2
-						]
-					}
-				},
-				"index":51,
-				"scale":0.550000011920929
-			},
 			"pbrMetallicRoughness":{
 				"baseColorTexture":{
-					"index":52
+					"index":25
 				},
 				"metallicFactor":0,
-				"metallicRoughnessTexture":{
-					"extensions":{
-						"KHR_texture_transform":{
-							"offset":[
-								0,
-								-1
-							],
-							"scale":[
-								2,
-								2
-							]
-						}
-					},
-					"index":53
-				}
+				"roughnessFactor":0.5
 			}
 		},
 		{
 			"doubleSided":true,
 			"name":"Cement.004",
-			"normalTexture":{
-				"extensions":{
-					"KHR_texture_transform":{
-						"offset":[
-							0,
-							-1
-						],
-						"scale":[
-							2,
-							2
-						]
-					}
-				},
-				"index":54,
-				"scale":0.550000011920929
-			},
 			"pbrMetallicRoughness":{
 				"baseColorTexture":{
-					"index":55
+					"index":26
 				},
 				"metallicFactor":0,
-				"metallicRoughnessTexture":{
-					"extensions":{
-						"KHR_texture_transform":{
-							"offset":[
-								0,
-								-1
-							],
-							"scale":[
-								2,
-								2
-							]
-						}
-					},
-					"index":56
-				}
+				"roughnessFactor":0.5
 			}
 		},
 		{
 			"doubleSided":true,
 			"name":"Sand 01",
 			"normalTexture":{
-				"index":57,
+				"index":27,
 				"scale":2.5,
 				"texCoord":1
 			},
 			"pbrMetallicRoughness":{
 				"metallicRoughnessTexture":{
-					"index":58,
+					"index":28,
 					"texCoord":1
-				}
+				},
+				"roughnessFactor":0.5
 			}
 		},
 		{
@@ -1305,7 +850,7 @@
 				1
 			],
 			"emissiveTexture":{
-				"index":59
+				"index":29
 			},
 			"extensions":{
 				"KHR_materials_emissive_strength":{
@@ -1315,7 +860,7 @@
 			"name":"cloud 65.001",
 			"pbrMetallicRoughness":{
 				"baseColorTexture":{
-					"index":60
+					"index":30
 				},
 				"metallicFactor":0,
 				"roughnessFactor":0.5
@@ -1330,7 +875,7 @@
 				1
 			],
 			"emissiveTexture":{
-				"index":61
+				"index":31
 			},
 			"extensions":{
 				"KHR_materials_emissive_strength":{
@@ -1340,7 +885,7 @@
 			"name":"cloud 65.002",
 			"pbrMetallicRoughness":{
 				"baseColorTexture":{
-					"index":62
+					"index":32
 				},
 				"metallicFactor":0,
 				"roughnessFactor":0.5
@@ -1896,8 +1441,12 @@
 			"sampler":0
 		},
 		{
-			"sampler":0,
-			"source":3
+			"extensions":{
+				"EXT_texture_webp":{
+					"source":3
+				}
+			},
+			"sampler":0
 		},
 		{
 			"extensions":{
@@ -1912,10 +1461,6 @@
 			"source":5
 		},
 		{
-			"sampler":0,
-			"source":3
-		},
-		{
 			"extensions":{
 				"EXT_texture_webp":{
 					"source":6
@@ -1924,12 +1469,12 @@
 			"sampler":0
 		},
 		{
-			"sampler":0,
-			"source":5
-		},
-		{
-			"sampler":0,
-			"source":7
+			"extensions":{
+				"EXT_texture_webp":{
+					"source":7
+				}
+			},
+			"sampler":0
 		},
 		{
 			"extensions":{
@@ -1948,32 +1493,16 @@
 			"sampler":0
 		},
 		{
-			"extensions":{
-				"EXT_texture_webp":{
-					"source":10
-				}
-			},
-			"sampler":0
-		},
-		{
-			"extensions":{
-				"EXT_texture_webp":{
-					"source":11
-				}
-			},
-			"sampler":0
+			"sampler":0,
+			"source":10
 		},
 		{
 			"sampler":0,
-			"source":3
+			"source":11
 		},
 		{
 			"sampler":0,
 			"source":12
-		},
-		{
-			"sampler":0,
-			"source":5
 		},
 		{
 			"extensions":{
@@ -1984,24 +1513,12 @@
 			"sampler":0
 		},
 		{
-			"sampler":0,
-			"source":3
-		},
-		{
 			"extensions":{
 				"EXT_texture_webp":{
 					"source":14
 				}
 			},
 			"sampler":0
-		},
-		{
-			"sampler":0,
-			"source":5
-		},
-		{
-			"sampler":0,
-			"source":3
 		},
 		{
 			"extensions":{
@@ -2012,28 +1529,12 @@
 			"sampler":0
 		},
 		{
-			"sampler":0,
-			"source":5
-		},
-		{
-			"sampler":0,
-			"source":3
-		},
-		{
 			"extensions":{
 				"EXT_texture_webp":{
 					"source":16
 				}
 			},
 			"sampler":0
-		},
-		{
-			"sampler":0,
-			"source":5
-		},
-		{
-			"sampler":0,
-			"source":3
 		},
 		{
 			"extensions":{
@@ -2044,28 +1545,12 @@
 			"sampler":0
 		},
 		{
-			"sampler":0,
-			"source":5
-		},
-		{
-			"sampler":0,
-			"source":3
-		},
-		{
 			"extensions":{
 				"EXT_texture_webp":{
 					"source":18
 				}
 			},
 			"sampler":0
-		},
-		{
-			"sampler":0,
-			"source":5
-		},
-		{
-			"sampler":0,
-			"source":3
 		},
 		{
 			"extensions":{
@@ -2076,28 +1561,12 @@
 			"sampler":0
 		},
 		{
-			"sampler":0,
-			"source":5
-		},
-		{
-			"sampler":0,
-			"source":3
-		},
-		{
 			"extensions":{
 				"EXT_texture_webp":{
 					"source":20
 				}
 			},
 			"sampler":0
-		},
-		{
-			"sampler":0,
-			"source":5
-		},
-		{
-			"sampler":0,
-			"source":3
 		},
 		{
 			"extensions":{
@@ -2108,28 +1577,12 @@
 			"sampler":0
 		},
 		{
-			"sampler":0,
-			"source":5
-		},
-		{
-			"sampler":0,
-			"source":3
-		},
-		{
 			"extensions":{
 				"EXT_texture_webp":{
 					"source":22
 				}
 			},
 			"sampler":0
-		},
-		{
-			"sampler":0,
-			"source":5
-		},
-		{
-			"sampler":0,
-			"source":3
 		},
 		{
 			"extensions":{
@@ -2140,28 +1593,12 @@
 			"sampler":0
 		},
 		{
-			"sampler":0,
-			"source":5
-		},
-		{
-			"sampler":0,
-			"source":3
-		},
-		{
 			"extensions":{
 				"EXT_texture_webp":{
 					"source":24
 				}
 			},
 			"sampler":0
-		},
-		{
-			"sampler":0,
-			"source":5
-		},
-		{
-			"sampler":0,
-			"source":3
 		},
 		{
 			"extensions":{
@@ -2172,24 +1609,12 @@
 			"sampler":0
 		},
 		{
-			"sampler":0,
-			"source":5
-		},
-		{
-			"sampler":0,
-			"source":3
-		},
-		{
 			"extensions":{
 				"EXT_texture_webp":{
 					"source":26
 				}
 			},
 			"sampler":0
-		},
-		{
-			"sampler":0,
-			"source":5
 		},
 		{
 			"sampler":0,
@@ -2233,19 +1658,9 @@
 			"uri":"B_stairs_cloth_L.webp"
 		},
 		{
-			"mimeType":"image/jpeg",
-			"name":"Metal_normal",
-			"uri":"Metal_normal.jpg"
-		},
-		{
 			"mimeType":"image/webp",
 			"name":"B_railing_L",
 			"uri":"B_railing_L.webp"
-		},
-		{
-			"mimeType":"image/png",
-			"name":"Metal_roughness",
-			"uri":"Metal_roughness.png"
 		},
 		{
 			"mimeType":"image/webp",
@@ -2278,9 +1693,19 @@
 			"uri":"B_stairs_cloth_R.webp"
 		},
 		{
+			"mimeType":"image/jpeg",
+			"name":"Metal_normal",
+			"uri":"Metal_normal.jpg"
+		},
+		{
 			"mimeType":"image/png",
 			"name":"B_railing_R_1",
 			"uri":"B_railing_R_1.png"
+		},
+		{
+			"mimeType":"image/png",
+			"name":"Metal_roughness",
+			"uri":"Metal_roughness.png"
 		},
 		{
 			"mimeType":"image/webp",
@@ -2359,8 +1784,8 @@
 		},
 		{
 			"mimeType":"image/png",
-			"name":"Stylized_31_Sand01_metallic-Stylized_31_Sand01_roughness",
-			"uri":"Stylized_31_Sand01_metallic-Stylized_31_Sand01_roughness.png"
+			"name":"Stylized_31_Sand01_metallic",
+			"uri":"Stylized_31_Sand01_metallic.png"
 		},
 		{
 			"mimeType":"image/png",
