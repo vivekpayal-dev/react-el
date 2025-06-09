@@ -64,12 +64,11 @@ const Portfolio = () => {
                     }}
                     pagination={{ el: '.swiper-pagination', clickable: true }}
                     onSwiper={(swiper) => (swiperRef.current = swiper)}
-                    // modules={[EffectCoverflow]}
+                    modules={[EffectCoverflow]}
                     className="swiper_container !pb-16"
                 >
                     {
                         portfolioVideos.map((portfolioVideo, idx) => {
-
                             return <SwiperSlide key={idx}>
                                 <PortfolioCard portfolioVideo={portfolioVideo} />
                             </SwiperSlide>
@@ -78,11 +77,11 @@ const Portfolio = () => {
                 </Swiper>
                 <div className="flex flex-col items-center gap-20">
                     <div className="flex items-center justify-center mt-4">
-                        <Dialog className="bg-red-500">
+                        {/* <Dialog className="bg-red-500">
                             <DialogTrigger asChild>
                                 <Button className="z-10  border-1 text-white border border-white px-8 py-3 rounded-[40px] text-[17px] ">View Our Private collection</Button>
                             </DialogTrigger>
-                            {/* <DialogContent className="sm:max-w-[425px]">
+                            <DialogContent className="sm:max-w-[425px]">
                                 <DialogHeader>
                                     <DialogTitle>Edit profile</DialogTitle>
                                 </DialogHeader>
@@ -101,8 +100,8 @@ const Portfolio = () => {
                                 <DialogFooter>
                                     <Button type="submit">Save changes</Button>
                                 </DialogFooter>
-                            </DialogContent> */}
-                        </Dialog>
+                            </DialogContent>
+                        </Dialog> */}
                     </div>
                 </div>
             </div>

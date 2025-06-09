@@ -1,5 +1,4 @@
 import Check from "@/components/ui/Check"
-
 const HowItWorks = () => {
   return (
     <div className="flex flex-col items-center px-3 md:px-12 pb-5 md:pb-5 max-w-7xl mx-auto gap-5">
@@ -11,7 +10,7 @@ const HowItWorks = () => {
       <div >
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 md:gap-0 sm:pb-6">
           {/* Card 1 */}
-          <div className="overflow-hidden text-white md:h-[393px] w-full bg-white-300 rounded-[20px] bg-clip-padding backdrop-filter backdrop-blur-lg border border-white/40 cursor-pointer hover:border-white transition-border duration-300 ease-in-out">
+          <div className="overflow-hidden text-white md:h-[393px] w-full bg-white-300 rounded-[20px] bg-clip-padding backdrop-filter backdrop-blur-lg border border-white/40 cursor-pointer hover:border-white transition-border duration-300 ease-in-out z-[1]">
             <div className="border-white/30 border-b px-6 py-5">
               <span className="mb-1 inline-block font-medium backdrop-filter backdrop-blur-lg rounded-full bg-white/30 px-3 py-1 text-sm">1</span>
               <h4 className="font-bold text-[28px]">Choose Your Plan</h4>
@@ -40,7 +39,7 @@ const HowItWorks = () => {
           </div>
 
           {/* Card 3 */}
-          <div className="overflow-hidden text-white md:h-[393px] w-full bg-white-300 rounded-[20px] bg-clip-padding backdrop-filter backdrop-blur-lg border border-white/40 cursor-pointer hover:border-white transition-border duration-300 ease-in-out">
+          <div className="overflow-hidden text-white md:h-[393px] w-full bg-white-300 rounded-[20px] bg-clip-padding backdrop-filter backdrop-blur-lg border border-white/40 cursor-pointer hover:border-white transition-border duration-300 ease-in-out z-[1]">
             <div className="md:ps-9 border-white/30 border-b px-6 py-5">
               <span className="mb-1 inline-block font-medium backdrop-filter backdrop-blur-lg rounded-full bg-white/30 px-3 py-1 text-sm">3</span>
               <h4 className="font-bold text-[28px]">Receive Your Edit</h4>
